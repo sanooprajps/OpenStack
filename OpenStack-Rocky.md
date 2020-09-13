@@ -3,7 +3,7 @@ Openstack Rocky Manual Installation (Ubuntu 18.04)<br>
 1. Openstack packages for Ubuntu<br>
 https://docs.openstack.org/install-guide/environment-packages-ubuntu.html
 
-2.SQL Database<br>
+2. SQL Database<br>
 Most OpenStack services use an SQL database to store information. The database typically runs on the controller node. MariaDB or MySQL or PostgreSQL can be used.
 MariaDB will be used here.
 
@@ -36,4 +36,6 @@ https://docs.openstack.org/keystone/rocky/install/keystone-install-ubuntu.html
 Check /var/log/keystone and make sure there are not database connection error. If yes, loginto mysql -> keystone database and see if you are able to see many tabels.
 If not check /etc/hosts for controller IP, make mysql listen on all hosts, and rerun populate command.
 
-2. 
+2. Image Service - glance <br>
+https://docs.openstack.org/glance/rocky/install/install-ubuntu.html
+
