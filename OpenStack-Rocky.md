@@ -50,3 +50,9 @@ https://docs.openstack.org/neutron/rocky/install/install-ubuntu.html
 
 Both controller and compute needs to be installed.
 Select Networking Option 2: Self-service networks, this should have both provider and self-service networks.
+
+5. Dashboard - Horizon <br>
+https://docs.openstack.org/horizon/rocky/install/install-ubuntu.html
+The only core service required by the dashboard is the Identity service.
+
+6. Block Storage - Cinder <br>
