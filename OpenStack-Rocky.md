@@ -43,3 +43,10 @@ https://docs.openstack.org/glance/rocky/install/install-ubuntu.html
 https://docs.openstack.org/nova/rocky/install/
 
 Both controller and compute needs to be installed.
+This configuration uses the Quick EMUlator (QEMU) hypervisor with the kernel-based VM (KVM) extension on compute nodes that support hardware acceleration for virtual machines.
+
+4. Networking service <br>
+https://docs.openstack.org/neutron/rocky/install/install-ubuntu.html
+
+Both controller and compute needs to be installed.
+Select Networking Option 2: Self-service networks, this should have both provider and self-service networks.
