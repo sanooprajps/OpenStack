@@ -36,6 +36,10 @@ https://docs.openstack.org/keystone/rocky/install/keystone-install-ubuntu.html
 Check /var/log/keystone and make sure there are not database connection error. If yes, loginto mysql -> keystone database and see if you are able to see many tabels.
 If not check /etc/hosts for controller IP, make mysql listen on all hosts, and rerun populate command.
 
-2. Image Service - glance <br>
+2. Image Service - Glance <br>
 https://docs.openstack.org/glance/rocky/install/install-ubuntu.html
 
+3. Compute Service - Nova <br>
+https://docs.openstack.org/nova/rocky/install/
+
+Both controller and compute needs to be installed.
